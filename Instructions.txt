@@ -1,0 +1,18 @@
+To run poroelasticity solver
+
+1. Put all files in the same folder.
+   For one-dimensional solver: assemble_1D.m, alement_1D.m, input_1D.m, localize_1D.m, main_code_1d.m, and vectorstretch_1D.m 
+   For two-dimensional solver: assemble_2D.m, alement_2D.m, input_2D.m, localize_2D.m, main_code_2d.m, and vectorstretch_2D.m 
+2. The input data for node, element, physical properties, and boundary conditions are stored in the input_1D.m or input_2D.m function 
+3. Run the main file main_code_1D.m or main_code_2D.m
+4. We provide the visualisation for the two-dimensional problems 
+   The coordinate in the x-axis is stored in the horizontal_distance.m
+   The coordinate in the y-axis is stored in the vertical_distance.m
+   The main variable (horizontal displacement, vertical displacement, or pore pressure) is stored in the variable.m
+   The main file for two-dimensional plotting is the main_plot.m
+
+
+
+
+
+
